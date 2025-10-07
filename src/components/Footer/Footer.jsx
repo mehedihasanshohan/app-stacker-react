@@ -2,7 +2,7 @@ import icon from '/assets/logo.png'
 
 const Footer = () => {
   return (
-   <footer className="footer footer-horizontal footer-center bg-[#01305A] text-primary-content p-10">
+   <footer className="footer footer-horizontal footer-center bg-[#01305A] text-primary-content p-4">
   <aside>
     <img src={icon} className='w-12 h-12' alt="" />
     <p className="font-bold mt-2 mb-2">
