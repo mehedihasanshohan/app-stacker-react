@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/5Tz8mYq/app1.png",
+    "title": "SnapWave",
+    "companyName": "PixelCraft Studios",
+    "description": "A lightweight photo editing app with powerful filters and effects.",
+    "size": 45,
+    "reviews": 1260,
+    "ratingAvg": 4.3,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/yXRVK4D/app2.png",
+    "title": "NoteEase",
+    "companyName": "SoftMind Labs",
+    "description": "Organize your notes and ideas with an intuitive cloud sync system.",
+    "size": 32,
+    "reviews": 845,
+    "ratingAvg": 4.5,
+    "downloads": 8.3,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/vwYhQbR/app3.png",
+    "title": "FitPulse",
+    "companyName": "CoreSync Fitness",
+    "description": "Track workouts, calories, and steps to stay fit and active.",
+    "size": 58,
+    "reviews": 1520,
+    "ratingAvg": 4.6,
+    "downloads": 2.1,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/Mnq8hLn/app4.png",
+    "title": "TaskFlow",
+    "companyName": "BrightDev",
+    "description": "Boost productivity with smart to-do lists and time tracking.",
+    "size": 40,
+    "reviews": 690,
+    "ratingAvg": 4.2,
+    "downloads": 6.5,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/JcLnL2R/app5.png",
+    "title": "ShopSmart",
+    "companyName": "NovaCart",
+    "description": "A price comparison app that helps you find the best online deals.",
+    "size": 51,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 1.25,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/SfL2tSx/app6.png",
+    "title": "Langify",
+    "companyName": "EduVerse",
+    "description": "Learn new languages easily with AI-driven lessons and pronunciation tips.",
+    "size": 76,
+    "reviews": 2300,
+    "ratingAvg": 4.8,
+    "downloads": 3.3,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 610 },
+      { "name": "5 star", "count": 1270 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/k8ghswF/app7.png",
+    "title": "Travelio",
+    "companyName": "SkyPath",
+    "description": "Plan, book, and manage your trips in one intuitive travel app.",
+    "size": 89,
+    "reviews": 1750,
+    "ratingAvg": 4.5,
+    "downloads": 2.5,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/Y2dkmF2/app8.png",
+    "title": "MindZen",
+    "companyName": "Calmify",
+    "description": "Relax and meditate with guided sessions and calming music.",
+    "size": 64,
+    "reviews": 1340,
+    "ratingAvg": 4.7,
+    "downloads": 16,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/pKhfn6J/app9.png",
+    "title": "FinTrack",
+    "companyName": "LedgerX",
+    "description": "Manage your expenses, track income, and visualize savings goals.",
+    "size": 55,
+    "reviews": 1120,
+    "ratingAvg": 4.4,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/4P2V6zX/app10.png",
+    "title": "RecipeNest",
+    "companyName": "CookCraft",
+    "description": "Discover new recipes, save favorites, and share cooking tips.",
+    "size": 48,
+    "reviews": 890,
+    "ratingAvg": 4.3,
+    "downloads": 8.7,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/nQbS4QL/app11.png",
+    "title": "DriveSync",
+    "companyName": "DataLink",
+    "description": "Auto-backup and sync files securely across all your devices.",
+    "size": 60,
+    "reviews": 1050,
+    "ratingAvg": 4.5,
+    "downloads": 14.5,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/jHTvF08/app12.png",
+    "title": "TuneMate",
+    "companyName": "Rhythmix",
+    "description": "A simple music streaming app with curated playlists.",
+    "size": 77,
+    "reviews": 1420,
+    "ratingAvg": 4.6,
+    "downloads": 23,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/rvnCnRZ/app13.png",
+    "title": "StudySync",
+    "companyName": "EduCore",
+    "description": "Collaborate and study with peers using real-time notes.",
+    "size": 42,
+    "reviews": 760,
+    "ratingAvg": 4.2,
+    "downloads": 6.7,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/XzS92zC/app14.png",
+    "title": "Eventify",
+    "companyName": "PlanX",
+    "description": "Plan and manage events seamlessly with RSVP tracking.",
+    "size": 59,
+    "reviews": 960,
+    "ratingAvg": 4.3,
+    "downloads": 8.8,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/2sY2VtN/app15.png",
+    "title": "ChatBox",
+    "companyName": "TechSphere",
+    "description": "Secure, fast, and modern messaging app with dark mode.",
+    "size": 70,
+    "reviews": 2500,
+    "ratingAvg": 4.7,
+    "downloads": 42,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1120 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/nQmNfP1/app16.png",
+    "title": "CodeCamp",
+    "companyName": "DevForge",
+    "description": "Practice coding challenges and learn new programming concepts.",
+    "size": 84,
+    "reviews": 1780,
+    "ratingAvg": 4.6,
+    "downloads": 19,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/6wHfKtN/app17.png",
+    "title": "PixBoard",
+    "companyName": "Artify",
+    "description": "Create beautiful moodboards and share your inspirations.",
+    "size": 47,
+    "reviews": 640,
+    "ratingAvg": 4.1,
+    "downloads": 5.1,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 190 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co/GsbMnTf/app18.png",
+    "title": "GameVault",
+    "companyName": "PlayCore",
+    "description": "Discover new games and keep track of your gaming collection.",
+    "size": 92,
+    "reviews": 1950,
+    "ratingAvg": 4.6,
+    "downloads": 27,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 510 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/CM4NnPc/app19.png",
+    "title": "Weatherly",
+    "companyName": "SkyCast",
+    "description": "Get accurate forecasts and live weather alerts worldwide.",
+    "size": 56,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 8.9,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co/x3W2WgY/app20.png",
+    "title": "DocuSignify",
+    "companyName": "LegalTech",
+    "description": "Sign and manage your documents securely in the cloud.",
+    "size": 68,
+    "reviews": 1220,
+    "ratingAvg": 4.5,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 480 }
+    ]
+  }
+]

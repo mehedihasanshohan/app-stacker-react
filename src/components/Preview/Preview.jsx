@@ -13,7 +13,7 @@ const Preview = () => {
         Trusted By Millions, Built For You
       </h2>
 
-      <div className="flex flex-col md:flex-col sm:flex-row justify-center items-center gap-6 md:gap-10">
+      <div className="flex flex-col md:flex-row  justify-center items-center gap-6 md:gap-10">
         {stats.map((item, index) => (
           <div key={index}>
             <p className="text-lg mt-2 font-medium">{item.label}</p>
