@@ -26,7 +26,7 @@ const Apps = () => {
          <h2 className='text-5xl text-black font-semibold text-center'>Our All Applications</h2>
          <p className='text-xl text-gray-600 font-semibold text-center mt-6 mb-4'>Explore all the trending app on the market developed by us.</p>
          <div className='flex justify-between items-center mb-6'>
-          <p className='font-semibold text-lg'>({apps.length}) Apps Found</p>
+          <p className='font-semibold text-lg'>({searchedApp.length}) Apps Found</p>
          <label className="flex items-center border-2 border-gray-400 rounded-md px-2">
           <FaSearch className="text-gray-500 mr-2" />
           <input

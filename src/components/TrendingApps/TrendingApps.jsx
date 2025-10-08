@@ -1,13 +1,15 @@
 import React from 'react'
 import { PiDownloadSimpleBold } from 'react-icons/pi'
 import { FaStar } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const TrendingApps = ({ app }) => {
   const {id,  image, title, downloads } = app;
   console.log(typeof id);
 
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300  p-4 flex flex-col items-center">
+    <Link to={`/app/${id}`}>
+      <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300  p-4 flex flex-col items-center">
       <img src={image} alt={title} className="w-full h-48 object-cover rounded-lg mb-3" />
       <h2 className="text-lg font-semibold mb-2 ">{title}</h2>
 
@@ -21,6 +23,7 @@ const TrendingApps = ({ app }) => {
         </p>
       </div>
     </div>
+    </Link>
   )
 }
 
