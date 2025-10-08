@@ -12,10 +12,16 @@ const Apps = () => {
     if (loading) return <p className="text-center text-lg font-medium">Loading apps...</p>;
     if (error) return <p className="text-center text-red-500">Error: {error}</p>;
 
+    const term = search.trim().toLocaleLowerCase();
+    const searchedApp = term ?
+          apps.filter(app => app.title.toLocaleLowerCase().includes(term))
+          :
+          apps;
+
 
 
     return (
-     <section className='bg-gradient-to-r pb-0 from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] pt-12'>
+     <section className='bg-gradient-to-r from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] pb-12 pt-12'>
       <div className='max-w-6xl mx-auto '>
          <h2 className='text-5xl text-black font-semibold text-center'>Our All Applications</h2>
          <p className='text-xl text-gray-600 font-semibold text-center mt-6 mb-4'>Explore all the trending app on the market developed by us.</p>
@@ -32,7 +38,7 @@ const Apps = () => {
         </label>
         </div>
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-         {apps.map((app, index) => (
+         {searchedApp.map((app, index) => (
           <TrendingApps key={app.id || index} app={app} />
          ))}
         </div>

@@ -7,7 +7,7 @@ const TrendingApps = ({ app }) => {
   console.log(typeof id);
 
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 p-4 flex flex-col items-center">
+    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300  p-4 flex flex-col items-center">
       <img src={image} alt={title} className="w-full h-48 object-cover rounded-lg mb-3" />
       <h2 className="text-lg font-semibold mb-2 ">{title}</h2>
 
