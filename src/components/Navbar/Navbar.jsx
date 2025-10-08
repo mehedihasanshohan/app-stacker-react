@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link, NavLink } from 'react-router'
 import icon from '/assets/logo.png'
 import { FaGithub } from 'react-icons/fa';
 
@@ -19,16 +19,51 @@ const Navbar = () => {
         <li><Link>Installations</Link></li>
       </ul>
     </div>
-     <img src={icon} className='h-8 w-8 ml-4 mr-2' alt="logo" />
+     <Link to={'/'}>
+      <img src={icon} className='h-8 w-8 ml-4 mr-2' alt="logo" />
+     </Link>
      <h2 className='text-2xl font-bold text-purple-800'>
      <Link to={'/'}>App Stacker</Link>
     </h2>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal text-lg font-semibold px-1">
-      <li><Link  to={'/'}>Home</Link></li>
-      <li><Link to={'/apps'}>Apps</Link></li>
-      <li><Link to={'/installations'}>Installations</Link></li>
+       <li>
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive
+            ? "text-indigo-600 font-bold border-b-2 border-indigo-600 pb-1"
+            : "text-gray-700"
+        }
+      >
+        Home
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/apps"
+        className={({ isActive }) =>
+          isActive
+            ? "text-indigo-600 font-bold border-b-2 border-indigo-600 pb-1"
+            : "text-gray-700"
+        }
+      >
+        Apps
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to="/installations"
+        className={({ isActive }) =>
+          isActive
+            ? "text-indigo-600 font-bold border-b-2 border-indigo-600 pb-1"
+            : "text-gray-700"
+        }
+      >
+        Installations
+      </NavLink>
+    </li>
     </ul>
   </div>
   <div className="navbar-end">

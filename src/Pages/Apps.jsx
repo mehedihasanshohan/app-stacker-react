@@ -38,9 +38,15 @@ const Apps = () => {
         </label>
         </div>
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-         {searchedApp.map((app, index) => (
-          <TrendingApps key={app.id || index} app={app} />
-         ))}
+         {searchedApp.length > 0 ? (
+            searchedApp.map((app, index) => (
+              <TrendingApps key={app.id || index} app={app} />
+            ))
+          ) : (
+            <p className="text-center col-span-full text-red-500 text-lg font-semibold">
+              No apps found! Enter correct keyword...
+            </p>
+          )}
         </div>
       </div>
      </section>
