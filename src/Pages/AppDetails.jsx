@@ -6,6 +6,7 @@ import { BiDownload } from 'react-icons/bi';
 import d from '/d.png'
 import r from '/r.png'
 import s from '/s.png'
+import Charts from "../components/Charts/Charts";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -70,9 +71,9 @@ const AppDetails = () => {
             </div>
           </div>
 
-          <button className="mt-5 bg-gradient-to-r from-indigo-600 to-purple-500
+          <button className="mt-5 bg-gradient-to-r from-[#54CF68] to-[#00827A]
                            text-white px-6 py-2 rounded-full shadow-md
-                           hover:opacity-90 cursor-pointer transition">
+                           hover:to-[#54CF68] hover:from-[#00827A] cursor-pointer transition">
             Install Now ({app.size} MB)
           </button>
         </div>
@@ -82,22 +83,7 @@ const AppDetails = () => {
 
 
       {/* Ratings Bar Section */}
-      <div className="mt-8">
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">Ratings</h3>
-        <div className="space-y-2">
-          {[5, 4, 3, 2, 1].map((star, index) => (
-            <div key={index} className="flex items-center gap-3">
-              <span className="w-10 text-sm text-gray-600">{star} star</span>
-              <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-orange-400"
-                  style={{ width: `${star * 20}%` }}
-                ></div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      <Charts app={app}></Charts>
 
       {/* Description Section */}
       <div className="mt-10 text-left">

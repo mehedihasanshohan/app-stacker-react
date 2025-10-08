@@ -2,6 +2,7 @@ import React from 'react';
 import { IoMdAppstore } from 'react-icons/io';
 import { FaGooglePlay } from 'react-icons/fa';
 import heroPng from '/assets/hero.png';
+import playStore from '/play.png'
 
 const Banner = () => {
   return (
@@ -22,14 +23,18 @@ const Banner = () => {
         </p>
 
         <div className="flex justify-center flex-wrap gap-4">
-          <button className="flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F63F2] text-white px-5 py-2
-                             rounded-xl font-medium hover:to-[#632EE3] hover:from-[#9F63F2]">
-            <FaGooglePlay className="text-xl text-white" />
+          <button
+              onClick={() => window.open("https://play.google.com/store/games?hl=en", "_blank")}
+              className="flex items-center gap-2 bg-gray-200 text-gray-800 cursor-pointer
+                         px-5 py-2 rounded-xl font-medium hover:bg-gray-400">
+            <img src={playStore} className='w-6 h-6' alt="" />
             Google Play
           </button>
 
-          <button className="flex items-center gap-2 bg-gray-200 text-gray-800 px-5 py-2 rounded-xl font-medium hover:bg-gray-300 transition-all">
-            <IoMdAppstore className="text-xl text-blue-500" />
+          <button
+             onClick={() => window.open("https://apps.microsoft.com/home?hl=en-US&gl=BD", "_blank")}
+             className="flex items-center gap-2 bg-gray-200 text-gray-800 px-5 py-2 rounded-xl font-medium hover:bg-gray-300 transition-all">
+            <IoMdAppstore className="text-xl text-blue-500 cursor-pointer"/>
             App Store
           </button>
         </div>

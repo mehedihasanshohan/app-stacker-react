@@ -14,12 +14,12 @@ const TrendingApps = ({ app }) => {
       <h2 className="text-lg font-semibold mb-2 ">{title}</h2>
 
       <div className="flex justify-between items-center w-full text-sm">
-        <p className="flex items-center bg-gray-200 font-semibold px-2 rounded-sm gap-1 text-green-700">
+        <p className="flex items-center bg-gray-200 font-semibold px-2 py-1  rounded-sm gap-1 text-green-700">
           <PiDownloadSimpleBold className="" />
           {downloads}M
         </p>
-        <p className="flex items-center bg-rose-600 rounded-sm px-2 gap-1 text-yellow-200">
-          <FaStar className='text-yellow-400'></FaStar> 5
+        <p className="flex items-center bg-[#FFF0E1] text-[#FF9911] font-semibold rounded-sm px-2 py-1 gap-1">
+          <FaStar className='text-[#FF9911]'></FaStar> 5
         </p>
       </div>
     </div>
