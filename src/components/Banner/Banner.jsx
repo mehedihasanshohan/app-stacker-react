@@ -6,7 +6,8 @@ import playStore from '/play.png'
 
 const Banner = () => {
   return (
-    <section className="bg-gradient-to-r pb-0 from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] py-16 px-6 md:px-12 text-center rounded-3xl shadow-lg overflow-hidden">
+    <section className="bg-gradient-to-r pb-0 from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] py-16 px-6 md:px-12 text-center overflow-hidden">
+    {/* // <section className="bg-[#D2D2D2] py-16 px-6 md:px-12 text-center overflow-hidden"> */}
       <div className="max-w-5xl mx-auto flex flex-col items-center">
         <h2 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-4">
           We Build <br />

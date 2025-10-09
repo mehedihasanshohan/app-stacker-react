@@ -16,9 +16,9 @@ const Preview = () => {
       <div className="flex flex-col md:flex-row  justify-center items-center gap-6 md:gap-10">
         {stats.map((item, index) => (
           <div key={index}>
-            <p className="text-lg mt-2 font-medium">{item.label}</p>
-            <h3 className="text-4xl md:text-5xl font-extrabold">{item.number}</h3>
-            <p className="text-sm mt-1 opacity-80">{item.subtext}</p>
+            <p className="text-lg mt-4 font-medium">{item.label}</p>
+            <h3 className="text-4xl mt-4 md:text-5xl font-extrabold">{item.number}</h3>
+            <p className="text-sm mt-4 opacity-80">{item.subtext}</p>
           </div>
         ))}
       </div>

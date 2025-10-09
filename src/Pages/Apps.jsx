@@ -72,7 +72,9 @@ const Apps = () => {
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
 
-  if (loading) return <p className="text-center text-lg font-medium">Loading apps...</p>;
+  if (loading) return <p className="text-center text-lg font-medium">Loading apps...
+   <span className="loading loading-spinner text-primary min-h-screen"></span>
+  </p>;
   if (error) return <p className="text-center text-red-500">Error: {error}</p>;
 
   const handleSearch = (value) => {
