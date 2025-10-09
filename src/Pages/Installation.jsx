@@ -20,7 +20,7 @@ const Installation = () => {
   };
 
   return (
-    <section className="bg-gradient-to-r pb-0 from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] min-h-screen py-16">
+    <section className="bg-gradient-to-r pb-0 from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] min-h-screen py-10 px-4 sm:px-4 md:px-10">
       <div className="max-w-5xl mx-auto">
         <div className="flex justify-center mb-10">
           <div className="text-center">
@@ -50,7 +50,7 @@ const Installation = () => {
             {installedApps.map((app) => (
               <div
                 key={app.id}
-                className="flex items-center justify-between bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md transition"
+                className="flex items-center justify-between bg-white border border-gray-200 rounded-xl p-4 sm:p-4 hover:shadow-md transition"
               >
                 <div className="flex items-center gap-4">
                   <div className="w-16 h-16  rounded-lg overflow-hidden">

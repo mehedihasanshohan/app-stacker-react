@@ -11,7 +11,7 @@ const TrendingApps = ({ app }) => {
     <Link to={`/app/${id}`}>
       <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300  p-4 flex flex-col items-center">
       <img src={image} alt={title} className="w-full h-48 object-cover rounded-lg mb-3" />
-      <h2 className="text-lg font-semibold mb-2 ">{title}</h2>
+      <h2 className="w-full text-lg text-left font-semibold mb-2 ">{title}</h2>
 
       <div className="flex justify-between items-center w-full text-sm">
         <p className="flex items-center bg-gray-200 font-semibold px-2 py-1  rounded-sm gap-1 text-green-700">

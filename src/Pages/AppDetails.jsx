@@ -44,8 +44,8 @@ const AppDetails = () => {
   const isInstalled = installedApps.some((a) => a.id === app.id);
 
   return (
-    <section className="bg-gradient-to-r pb-12 from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] p-12">
-      <div className="max-w-5xl mx-auto">
+    <section className="bg-gradient-to-r pb-12 from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] p-10">
+      <div className="max-w-5xl mx-auto ">
         {/* <Toaster position="top-right" /> */}
 
         {/* App Header */}
