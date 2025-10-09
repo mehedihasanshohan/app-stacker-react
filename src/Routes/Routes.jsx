@@ -4,6 +4,7 @@ import MainLayOut from './../Layouts/MainLayOut';
 import Errorpage from "../Pages/Errorpage";
 import AppDetails from "../Pages/AppDetails";
 import Apps from "../Pages/Apps";
+import InstalledApp from "../Pages/Installation";
 
 const router = createBrowserRouter([
   {
@@ -12,9 +13,10 @@ const router = createBrowserRouter([
     errorElement: <Errorpage></Errorpage>,
     children: [
       { index: true, element: <Home></Home>},
-      { path: '/details', element: <AppDetails></AppDetails>},
+      // { path: '/details', element: <AppDetails></AppDetails>},
       {path: '/apps', element: <Apps></Apps>},
-      {path: '/app/:id', element: <AppDetails></AppDetails>}
+      {path: '/app/:id', element: <AppDetails></AppDetails>},
+      {path: '/installations', element: <InstalledApp></InstalledApp>}
     ]
   }
 ]);
