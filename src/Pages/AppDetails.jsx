@@ -5,7 +5,8 @@ import d from "/d.png";
 import r from "/r.png";
 import s from "/s.png";
 import Charts from "../components/Charts/Charts";
-// import toast, { Toaster } from "react-hot-toast";
+  import { toast } from 'react-toastify';
+
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -28,7 +29,7 @@ const AppDetails = () => {
     const updated = [...stored, app];
     setInstalledApps(updated);
     localStorage.setItem("installedApps", JSON.stringify(updated));
-    // toast.success(`${app.title} installed successfully!`);
+    toast.success(`${app.title} installed successfully!`);
   };
 
   if (loading)

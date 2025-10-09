@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import toast, { Toaster } from "react-hot-toast";
+  import { toast } from 'react-toastify';
 
 import d from "/d.png";
 import s from "/s.png";
@@ -16,12 +16,11 @@ const Installation = () => {
     const updated = installedApps.filter((app) => app.id !== id);
     setInstalledApps(updated);
     localStorage.setItem("installedApps", JSON.stringify(updated));
-    // toast.error("App uninstalled successfully!");
+    toast.error("App uninstalled successfully!");
   };
 
   return (
     <section className="bg-gradient-to-r pb-0 from-[#f1f0ff] via-[#e8e8ff] to-[#ffffff] min-h-screen py-16">
-      {/* <Toaster position="top-right" /> */}
       <div className="max-w-5xl mx-auto">
         <div className="flex justify-center mb-10">
           <div className="text-center">

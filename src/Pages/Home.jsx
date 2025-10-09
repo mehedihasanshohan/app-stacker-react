@@ -6,7 +6,6 @@ import TrendingApps from '../components/TrendingApps/TrendingApps'
 import { Link } from 'react-router'
 
 
-
 const Home = () => {
   const {apps, error, loading} = useApps();
   console.log(apps);
