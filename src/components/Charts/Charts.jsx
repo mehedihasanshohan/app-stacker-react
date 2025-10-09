@@ -147,7 +147,7 @@ const Charts = ({ app }) => {
         <XAxis type="number" domain={[0, 1200]} ticks={[0, 100, 200, 300, 400, 500, 600]} />
         <YAxis dataKey="name" type="category" />
         <Tooltip />
-        <Bar dataKey="count" barSize={30} fill="#413ea0" />
+        <Bar dataKey="count" barSize={30} fill="#FF8811" />
       </ComposedChart>
     </ResponsiveContainer>
   );
