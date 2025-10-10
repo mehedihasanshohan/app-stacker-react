@@ -84,7 +84,8 @@ const Apps = () => {
   const [searchedApp, setSearchedApp] = useState([]);
   const [searchLoading, setSearchLoading] = useState(false);
 
-  if (loading) return <p className="text-center text-lg font-medium">Loading apps...</p>;
+  if (loading) return <p className="text-center text-lg font-medium">Loading apps...
+  <span className="loading loading-spinner min-h-screen text-primary"></span></p>;
   if (error) return <p className="text-center text-red-500">Error: {error}</p>;
 
   const handleSearch = (e) => {

@@ -144,7 +144,7 @@ const Charts = ({ app }) => {
         margin={{ top: 20, right: 20, bottom: 20, left: 50 }}
       >
         <CartesianGrid stroke="#f5f5f5" />
-        <XAxis type="number" domain={[0, 1200]} ticks={[0, 100, 200, 300, 400, 500, 600]} />
+        <XAxis type="number" domain={[0, 1200]} ticks={[0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]} />
         <YAxis dataKey="name" type="category" />
         <Tooltip />
         <Bar dataKey="count" barSize={30} fill="#FF8811" />
