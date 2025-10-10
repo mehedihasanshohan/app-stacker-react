@@ -29,9 +29,12 @@ const Home = () => {
          ))}
         </div>
         <div className='flex justify-center mb-6'>
-         <button className='btn btn-info'>
-           <Link to={'/apps'}>See All Apps</Link>
-         </button>
+         <Link
+            to="/apps"
+            className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]
+            hover:to-[#632EE3] hover:from-[#9F62F2]">
+              Show All Apps
+        </Link>
         </div>
       </div>
     </div>

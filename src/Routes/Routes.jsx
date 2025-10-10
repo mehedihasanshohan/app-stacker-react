@@ -5,7 +5,7 @@ import Errorpage from "../Pages/Errorpage";
 import AppDetails from "../Pages/AppDetails";
 import Apps from "../Pages/Apps";
 import InstalledApp from "../Pages/Installation";
-import NoAppsFound from "../Pages/NoAppsFound";
+
 
 const router = createBrowserRouter([
   {
@@ -17,8 +17,7 @@ const router = createBrowserRouter([
       // { path: '/details', element: <AppDetails></AppDetails>},
       {path: '/apps', element: <Apps></Apps>},
       {path: '/app/:id', element: <AppDetails></AppDetails>},
-      {path: '/installations', element: <InstalledApp></InstalledApp>},
-      {path: '/no-apps-found', element: <NoAppsFound></NoAppsFound>}
+      {path: '/installations', element: <InstalledApp></InstalledApp>}
     ]
   }
 ]);

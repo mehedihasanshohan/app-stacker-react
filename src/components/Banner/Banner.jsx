@@ -17,7 +17,7 @@ const Banner = () => {
           Apps
         </h2>
 
-        <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto mb-8">
+        <p className="text-gray-600 text-base md:text-lg mx-auto mb-8">
           At <span className="font-semibold text-gray-800">HERO.IO</span>, we craft innovative apps
           designed to make everyday life simpler, smarter, and more exciting. <br />
           Our goal is to turn your ideas into digital experiences that truly make an impact.
@@ -26,7 +26,7 @@ const Banner = () => {
         <div className="flex justify-center flex-wrap gap-4">
           <button
               onClick={() => window.open("https://play.google.com/store/games?hl=en", "_blank")}
-              className="flex items-center gap-2 bg-gray-200 text-gray-800 cursor-pointer
+              className="flex items-center gap-2 bg-gray-300 text-gray-800 cursor-pointer
                          px-5 py-2 rounded-xl font-medium hover:bg-gray-400">
             <img src={playStore} className='w-6 h-6' alt="" />
             Google Play
@@ -34,7 +34,7 @@ const Banner = () => {
 
           <button
              onClick={() => window.open("https://apps.microsoft.com/home?hl=en-US&gl=BD", "_blank")}
-             className="flex items-center gap-2 bg-gray-200 text-gray-800 px-5 py-2 rounded-xl font-medium hover:bg-gray-300 transition-all">
+             className="flex items-center gap-2 bg-gray-300 text-gray-800 px-5 py-2 rounded-xl font-medium hover:bg-gray-400 transition-all">
             <IoMdAppstore className="text-xl text-blue-500 cursor-pointer"/>
             App Store
           </button>

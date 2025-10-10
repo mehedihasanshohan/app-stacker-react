@@ -26,7 +26,7 @@ const Navbar = () => {
      <Link to={'/'}>App Stacker</Link>
     </h2>
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-center hidden lg:flex gap-2">
     <ul className="menu menu-horizontal text-lg font-semibold px-1">
        <li>
       <NavLink

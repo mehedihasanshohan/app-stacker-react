@@ -5,7 +5,6 @@ import { Link } from 'react-router';
 
 const TrendingApps = ({ app }) => {
   const {id,  image, title, downloads } = app;
-  console.log(typeof id);
 
   return (
     <Link to={`/app/${id}`}>
