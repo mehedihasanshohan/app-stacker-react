@@ -82,7 +82,7 @@ const Installation = () => {
 
                   <button
                     onClick={() => handleUninstall(app.id)}
-                    className="bg-[#10B981] hover:bg-[#059669] text-white text-sm font-medium px-4 py-2 rounded-md"
+                    className="bg-[#10B981] hover:bg-[#059669] text-white text-sm font-medium px-4 py-2 cursor-pointer rounded-md"
                   >
                     Uninstall
                   </button>

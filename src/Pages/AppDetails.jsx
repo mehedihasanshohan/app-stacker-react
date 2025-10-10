@@ -91,7 +91,7 @@ const AppDetails = () => {
               className={`mt-5 px-6 py-2 rounded-full shadow-md transition
                 ${isInstalled
                   ? "bg-gray-400 cursor-not-allowed"
-                  : "bg-gradient-to-r from-[#54CF68] to-[#00827A] text-white hover:to-[#54CF68] hover:from-[#00827A]"
+                  : "bg-gradient-to-r from-[#54CF68] to-[#00827A] text-white cursor-pointer hover:to-[#54CF68] hover:from-[#00827A]"
               }`}
             >
               {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
