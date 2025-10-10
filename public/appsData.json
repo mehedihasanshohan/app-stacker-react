@@ -11,10 +11,10 @@
     "downloads": 12,
     "ratings": [
       { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 240 },
-      { "name": "4 star", "count": 480 },
-      { "name": "5 star", "count": 270 }
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 440 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 870 }
     ]
   },
   {
@@ -29,10 +29,10 @@
     "downloads": 8.3,
     "ratings": [
       { "name": "1 star", "count": 45 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 160 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 270 }
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 560 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 970 }
     ]
   },
   {
@@ -67,8 +67,8 @@
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 70 },
       { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 230 },
-      { "name": "5 star", "count": 200 }
+      { "name": "4 star", "count": 530 },
+      { "name": "5 star", "count": 800 }
     ]
   },
   {
@@ -84,9 +84,9 @@
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 160 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 300 }
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 800 }
     ]
   },
   {
@@ -140,7 +140,7 @@
       { "name": "2 star", "count": 70 },
       { "name": "3 star", "count": 160 },
       { "name": "4 star", "count": 460 },
-      { "name": "5 star", "count": 570 }
+      { "name": "5 star", "count": 775 }
     ]
   },
   {
@@ -157,8 +157,8 @@
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 100 },
       { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 320 },
-      { "name": "5 star", "count": 410 }
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 910 }
     ]
   },
   {
@@ -175,8 +175,8 @@
       { "name": "1 star", "count": 70 },
       { "name": "2 star", "count": 90 },
       { "name": "3 star", "count": 160 },
-      { "name": "4 star", "count": 280 },
-      { "name": "5 star", "count": 290 }
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 990 }
     ]
   },
   {
@@ -193,8 +193,8 @@
       { "name": "1 star", "count": 80 },
       { "name": "2 star", "count": 90 },
       { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 400 }
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 750 }
     ]
   },
   {
@@ -228,9 +228,9 @@
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 130 },
-      { "name": "4 star", "count": 220 },
-      { "name": "5 star", "count": 270 }
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 870 }
     ]
   },
   {
@@ -247,8 +247,8 @@
       { "name": "1 star", "count": 60 },
       { "name": "2 star", "count": 100 },
       { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 350 }
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 850 }
     ]
   },
   {
@@ -301,8 +301,8 @@
       { "name": "1 star", "count": 70 },
       { "name": "2 star", "count": 80 },
       { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 180 },
-      { "name": "5 star", "count": 190 }
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 890 }
     ]
   },
   {
@@ -337,8 +337,8 @@
       { "name": "1 star", "count": 80 },
       { "name": "2 star", "count": 90 },
       { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 290 },
-      { "name": "5 star", "count": 370 }
+      { "name": "4 star", "count": 690 },
+      { "name": "5 star", "count": 870 }
     ]
   },
   {
@@ -355,8 +355,8 @@
       { "name": "1 star", "count": 90 },
       { "name": "2 star", "count": 110 },
       { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 360 },
-      { "name": "5 star", "count": 480 }
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 980 }
     ]
   }
 ]

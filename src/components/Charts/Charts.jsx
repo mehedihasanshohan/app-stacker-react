@@ -19,7 +19,7 @@ const Charts = ({ app }) => {
       <ComposedChart
         layout="vertical"
         data={chartData}
-        margin={{ top: 20, right: 20, bottom: 20, left: 50 }}
+        margin={{ top: 20, right: 20, bottom: 20 }}
       >
         <CartesianGrid stroke="#f5f5f5" />
         <XAxis type="number" domain={[0, 1200]} ticks={[0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]} />

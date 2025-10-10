@@ -102,7 +102,9 @@ const AppDetails = () => {
         <div className="h-[1px] bg-gray-200 w-full mx-auto mb-4"></div>
 
         {/* Ratings Bar Section */}
-        <Charts app={app} />
+        <div className="">
+         <Charts app={app} />
+        </div>
 
         {/* Description Section */}
         <div className="mt-10 text-left">
