@@ -6,11 +6,18 @@ import s from "/s.png";
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
+  const [sortOrder, setSortOrder] = useState([]);
 
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem("installedApps")) || [];
     setInstalledApps(stored);
   }, []);
+
+   const sortedApps = () => {
+    if (sortOrder === 'asc') return [...installedApps].sort((a, b) => a.downloads - b.downloads);
+    if (sortOrder === 'dsc') return [...installedApps].sort((a, b) => b.downloads - a.downloads);
+    return installedApps;
+  };
 
   const handleUninstall = (id) => {
     const updated = installedApps.filter((app) => app.id !== id);
@@ -35,9 +42,12 @@ const Installation = () => {
          <p className="text-gray-600 font-medium mb-4">
            {installedApps.length} Apps Found
          </p>
-         <select className="border border-gray-300 rounded-md px-2 py-1 text-sm text-gray-600 focus:outline-none">
-          <option>Sort By Size</option>
-          <option>Sort By Name</option>
+         <select className="border border-gray-300 rounded-md cursor-pointer px-2 py-1 text-sm text-gray-600 focus:outline-none"
+                 value={sortOrder}
+                 onChange={(e) => setSortOrder(e.target.value)}>
+          <option value="none">Sort By Download</option>
+          <option value="dsc">HIGH to LOW</option>
+          <option value="asc">LOW to HIGH</option>
           </select>
         </div>
 
@@ -47,7 +57,7 @@ const Installation = () => {
           </div>
         ) : (
           <div className="space-y-4">
-            {installedApps.map((app) => (
+            {sortedApps().map((app) => (
               <div
                 key={app.id}
                 className="flex items-center justify-between bg-white border border-gray-200 rounded-xl p-4 sm:p-4 hover:shadow-md transition"
